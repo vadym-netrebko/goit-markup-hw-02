@@ -3,6 +3,9 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
 }
+nav a {
+  line-height: 1.5;
+}
 address .link {
   line-height: 1.5;
   color: #434455;
@@ -16,6 +19,10 @@ address .link {
 }
 address {
   font-style: normal;
+}
+address .link:hover,
+:focus {
+  color: #404bbf;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -134,4 +141,13 @@ footer p {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
+}
+.second-title {
+  line-height: 1.2;
+}
+.text {
+  line-height: 1.5;
+}
+.section-four-title {
+  line-height: 1.11;
 }
