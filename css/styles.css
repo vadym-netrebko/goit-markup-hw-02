@@ -4,12 +4,12 @@ body {
   background-color: #ffffff;
 }
 address .link {
-      line-height: 1.5
+  line-height: 1.5;
   color: #434455;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
-  line-height: 1.5
+  line-height: 1.5;
   color: #434455;
   text-decoration: none;
   text-transform: lowercase;
@@ -56,7 +56,7 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 h3 {
   font-weight: 500;
@@ -76,7 +76,7 @@ ol {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
@@ -85,7 +85,7 @@ ol {
 .section-one .section-one-button:hover,
 :focus {
   color: #404bbf;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .logo-web {
   color: #4d5ae5; /* Цвет для "Web" */
