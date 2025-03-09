@@ -1,15 +1,21 @@
-address a {
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-  text-transform: lowercase;
-  font-style: normal;
-}
 body {
   color: #434455;
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+address .link {
+      line-height: 1.5
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5
+  color: #434455;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+address {
+  font-style: normal;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -17,8 +23,12 @@ body {
   font-size: 18px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-decoration: none;
+  line-height: 1.17;
+}
+.header-logo span {
+  color: #2e2f42;
 }
 header a {
   font-weight: 500;
@@ -35,19 +45,23 @@ h1 {
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
+  line-height: 1.07;
   text-align: center;
   color: #fff;
 }
 h2 {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize
 }
 h3 {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -58,17 +72,20 @@ ol {
 .section-one {
   background: #2e2f42;
 }
-.section-one button {
+.section-one .section-one-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  cursor: pointer;
 }
 .section-one .section-one-button:hover,
 :focus {
   color: #404bbf;
+  background-color: #404BBF;
 }
 .logo-web {
   color: #4d5ae5; /* Цвет для "Web" */
@@ -106,8 +123,11 @@ footer {
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
   text-decoration: none;
+}
+.footer-logo span {
+  color: #f4f4fd;
 }
 footer p {
   font-weight: 400;
