@@ -21,7 +21,7 @@ address {
   font-style: normal;
 }
 address .link:hover,
-:focus {
+address .link:focus {
   color: #404bbf;
 }
 .header-logo {
@@ -45,21 +45,19 @@ header a {
   text-decoration: none;
 }
 header .link:hover,
-:focus {
+header .link:focus {
   color: #404bbf;
 }
 h1 {
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
-  line-height: 1.07;
   text-align: center;
   color: #fff;
 }
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -90,7 +88,7 @@ ol {
   cursor: pointer;
 }
 .section-one .section-one-button:hover,
-:focus {
+.section-one .section-one-button:focus {
   color: #404bbf;
   background-color: #404bbf;
 }
@@ -129,6 +127,8 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
@@ -136,9 +136,10 @@ footer {
 .footer-logo span {
   color: #f4f4fd;
 }
-footer p {
+footer .text {
   font-weight: 400;
   font-size: 16px;
+  letter-spacing: 0.02em;
   line-height: 1.5;
   color: #f4f4fd;
 }
@@ -150,4 +151,10 @@ footer p {
 }
 .section-four-title {
   line-height: 1.11;
+}
+.section-two-title {
+  line-height: 1.2;
+}
+.third-title {
+  line-height: 1.2;
 }
